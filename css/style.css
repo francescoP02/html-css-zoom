@@ -42,8 +42,39 @@ header span {
 
 main {
     height: calc(100vh - 120px);
-    background-color: aqua;
+    overflow-y: auto;
+    background-color: black;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user {
+    width: 200px;
+    height: 150px;
+    background-color: green;
+    background-image: url(https://picsum.photos/246/146);
+    margin: 5px;
+    position: relative;
+    color: white;
+}
+
+.user-name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #4a4a4a;
+    padding: .2em .2em 0 .2em;
+    opacity: 0.8;
+}
+
+.user i {
+    margin: 0 5px;
+}
+
 
 /* FOOTER */
 
