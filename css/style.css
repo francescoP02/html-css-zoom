@@ -11,6 +11,17 @@ html {
     font-size: 100%;
 }
 
+footer i {
+    font-size: 1.3em;
+}
+
+footer p {
+    font-size: .8em;
+}
+
+.angle-up i {
+    font-size: .9em;
+}
 /* HEADER */
 
 header {
@@ -81,4 +92,65 @@ main {
 footer {
     height: 80px;
     background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+footer i {
+    margin-bottom: .3em;
+}
+
+/* LEFT NAV */
+
+.left-nav {
+    display: flex;
+    color: white;
+}
+
+.mute {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.stop-video {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1em;
+}
+
+/* MAIN NAV */
+
+.main-nav {
+    display: flex;
+    color: white;
+}
+
+.icon-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 .6em;
+    justify-content: center;
+}
+
+.share {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-nav {
+    background-color: blueviolet;
 }
